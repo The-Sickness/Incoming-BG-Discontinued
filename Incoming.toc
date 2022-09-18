@@ -1,0 +1,18 @@
+## interface: 90207
+## DefaultState: Enabled
+## Version: 9.2.7
+## title: Incoming
+## Notes: By clicking a button sends a message out in a battleground saying incoming at your location or all clear.
+## eMail: avelliance@gmail.com, zarknoid@gmail.com
+## author: Avelliance, Zarknoid, Sharpedge_Gaming
+## URL: nil
+## SavedVariables: Inc_ScaleText, Inc_MsgMode, Inc_LocPoint, Inc_LocRelTo, Inc_LocRelPoint, Inc_LocXOfs, Inc_LocYOfs
+
+
+
+boot.lua
+boot.xml
+
+
+
+

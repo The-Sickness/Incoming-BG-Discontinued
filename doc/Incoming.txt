@@ -1,0 +1,149 @@
+Incoming Documentation 
+======================
+
+Incoming allows the player to issue a call for assistance or issue an 'All Clear' in a battleground by clicking a button.
+
+
+
+Slash Commands
+==============
+
+/inc	Load the Incoming interface
+/inc u  Unload the Incoming interface
+/inc l  Lock and save the Incoming interface into the current screen position
+/inc r  Reset, unlock, and center the Incoming interface
+/inc ?  Help display will list all the slash commands
+/inc v  Version of Incoming
+/inc s# Scale the Incoming interface to a percentage [ s50 would scale to 50% ]
+/inc b  Brief messages in battlegrounds
+/inc f  Full messages in battlegrounds
+/inc t  Tell those around you that you are using the Incoming BG mod
+
+
+Battlegrounds supported
+=======================
+
+- Arathi Basin
+- Eye of the Storm
+- Wintergrasp
+- Battle for Gilneas
+- Isle of Conquest
+- Warsong Gulch
+- Twin Peaks
+- Tol Barad
+- Alterac Valley
+
+Ver 9.2.7
+-Updated to latest patch 9.2.7
+-New UI Panel with Close Button
+-Removed some old code per Blizzard API
+-Added new TOC file and lua files
+
+
+Ver 1.16 - 5/13/17
+- updated the add-on to patch 7.2.x to eliminate out of date nag
+
+Ver 1.15 - 1/10/16
+- updated the add-on to patch 6.2.x to eliminate out of date nag
+- I noticed that invoking /inc outside of battlegrounds you get an error dealing with 'SetPoint', but if you 
+  use /inc ? after that the interface loads. I fixed this issue. It will now load the interface, but will 
+  unload when it switches to a different zone outside the battleground. Inside the battleground it should
+  load/unload automatically, if not just enter /inc to load it. 
+
+Ver 1.14 - 12/14/14
+- updated the add-on to patch 6.0
+- Looked into adding new battlegrounds. Blizzard has stopped adding SubZone information in the battlegrounds.
+  Since this add-on uses the SubZone to tell other party members your location in the battleground, this will
+  take more research. I'm open to suggestions on how to accomplish this. At any rate this add-on would not
+  be of much use in the new battlegrounds. 
+
+
+Ver 1.13 - 7/18/13
+- Updated the add-on to patch 5.3
+
+Ver 1.12 - 4/24/13
+- Updated the add-on to patch 5.2
+
+Ver 1.11 - 12/4/12
+
+- Errors due to the BATTLEFIELD chat type being removed in patch 5.1. Switched to instance now.
+- Updated the add-on to support patch 5.1
+
+Ver 1.10 - 10/6/12
+
+- Added the '/inc t' switch to advertise the Incoming mod to those around you.
+- Removed '[Incoming]' from all messages sent in battlegrounds to eliminate any confusion.
+- Added zones for Alterac Valley. I see it as being problematic though. Some areas have no subzones and will
+  display as 'Alterac Valley'. Let me know if you try to use it somewhere and it doesn't say at least
+  'Alterac Valley'. I think I have them all, but I haven't been inside all the towers yet.
+
+Ver 1.09 - 9/30/12
+
+- Added short message mode '/inc b' and full message mode '/inc f' slash commands
+- Added saving of UI position and scale and message mode using the lock command '/inc l'. Remember to use it.
+- Added faction instead of 'incoming enemies' it now states either 'Horde' or 'Alliance'.
+
+Ver 1.08 - 9/18/12
+
+- Removed last bug fix added. It was causing an issue with a nil reference unless you loaded the UI once. Removed some 
+  code dealing with frame positioning (lock and reset commands). It was removed from the Blizzard API and causing 'attempt to index 
+  global frame (a nil value)'
+- No enhancements, this was just a bug fix to stop errors due to API changes.
+
+Ver 1.07
+
+- KippG added a bug fix for autoloading. Autoloading didn't work unless the /inc command was used first. 
+- Updated to support the new version of WOW (5.0.4)
+
+Ver 1.06
+
+- KippG kindly contributed code to auto load the interface in a battle ground. Thanks KippG.
+  I added the code and tried it out. If you reset your UI while in the battle ground, you will need to do the /inc again
+
+Ver 1.05
+
+- Added interface scaling up and down
+- Incoming reset will also reset interface scaling back to 100% or you could issue /inc s100
+
+Ver 1.04
+
+- Added back the old 'Incoming' button for those that like a generic message with no count on incoming enemies
+- Added an additional button 'Send More' to ask for more help at a location
+- Enlarged the interface frame to support more buttons
+
+
+Ver 1.03
+
+- Added 'Mine' for Arathi Basin. If you stand on the mine roof, or in that area, there is no sub zone of 'Gold Mine' listed
+  like it is everywhere else in that zone. This is another area like the flag room in Warsong Gulch (Alliance) where no sub 
+  zone is listed. Since there is a zone listed of Mine though. That will be used for that area now.
+- Redesigned the user interface so that instead of having one button with 'Incoming', it is now five buttons for incoming
+  enemies. Numbers 1,2,3,4, and a Zerg button. Pressing the number announces that many incoming enemies. Zerg, obviously
+  means 'a whold bunch' of enemies.
+ 
+
+
+ver 1.02
+
+- Added lock slash command 'l' to lock the incoming interface at it's current screen position.
+- Added a reset slash command 'r' that will unlock the incoming interface and position it to the center of the screen and make it draggable.
+- Added a version display slash command 'v'
+- Added a help slash command '?' that will list all the slash commands.
+
+
+Ver 1.01
+
+- Fixed zone problems. Some zones had no sub zone. Modified the code to check for a sub zone and if blank use the zone.
+
+
+
+Ver 1.0
+
+- Added new battlground support for Battle for Gilneas, Isle of Conquest, Warsong Gulch, Twin Peaks, Tol Barad.
+- Added the ability to load and unload the interface anywhere.
+- Added messages displayed in the chat window for better feedback to the player. Loaded and unloaded messages and 
+if a button is pressed and you're not in a supported zone, you will get an appropriate message.
+- Cleaned up and updated the TOC file for Wow version 4.3.
+
+
+Ver .10
