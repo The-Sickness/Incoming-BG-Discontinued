@@ -10,7 +10,7 @@ local zmessage = "";
     
 	if msg == 't' then
 		Incoming_Advertise = 1;
-		zmessage = "I am using the MOD " .. Inc_Ver .. " for announcing incoming attacks in battlegrounds";
+			zmessage = "I am using an addon called " .. Inc_Ver .. " for announcing incoming attacks in battlegrounds by just clicking an appropriate button in a GUI Panel.";
 	end
 	
 	if msg == 'b' then
