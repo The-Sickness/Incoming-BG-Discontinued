@@ -25,18 +25,11 @@
         </Offset>
       </Anchor>
     </Anchors>
-    <TitleRegion setAllPoints="true" />
-    <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
-      <BackgroundInsets>
-        <AbsInset left="11" right="12" top="12" bottom="11" />
-      </BackgroundInsets>
-      <TileSize>
-        <AbsValue val="32" />
-      </TileSize>
-      <EdgeSize>
-        <AbsValue val="32" />
-      </EdgeSize>
-    </Backdrop>
+    <KeyValues>
+        <KeyValue key="backdropInfo" value="SharpedgeIncommingFrame" type="global"/>
+        <KeyValue key="backdropColor" value="BLACK" type="global"/>
+        <KeyValue key="backdropBorderColor" value="WHITE" type="global"/>
+    </KeyValues>   
     <Frames>
       <Button name="AllClear" text="All Clear">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
