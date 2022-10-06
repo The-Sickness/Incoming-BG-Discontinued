@@ -1,10 +1,11 @@
-## Interface:  90207
+## Interface:  10002
 ## DefaultState: Enabled
 ## Title: Incoming
-## Author: Sharpedge_Gaming
-## Version: 9.2.7
+## Author: Avelliance, Zarknoid
+## Maintaner: Sharpedge_Gaming
+## Version: 10.2
 ## Dependencies: Incoming
- 
+## SavedVariables: Inc_ScaleText, Inc_MsgMode, Inc_LocPoint, Inc_LocRelTo, Inc_LocRelPoint, Inc_LocXOfs, Inc_LocYOfs 
 
 boot.xml
 boot.lua
