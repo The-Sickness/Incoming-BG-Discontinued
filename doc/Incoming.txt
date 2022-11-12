@@ -33,11 +33,8 @@ Battlegrounds supported
 - Tol Barad
 - Alterac Valley
 
-Ver 9.2.7
--Updated to latest patch 9.2.7
--New UI Panel with Close Button
--Removed some old code per Blizzard API
--Added new TOC file and lua files
+Ver 10.0.2 - 11/12/22
+Updated message wording to be alittle better accepted
 
 
 Ver 1.16 - 5/13/17
