@@ -20,7 +20,8 @@ function LocationManager:current_location()
 end
 
 function LocationManager:player_in_valid_zone()
-  local is_found = false
+  --local is_found = false
+  local is_found = true --Bughandle: Force Location Check to true
   local player_location = self:current_location()
   for index,valid_location in pairs(self.valid_zones) do
     if(valid_location == player_location) then
