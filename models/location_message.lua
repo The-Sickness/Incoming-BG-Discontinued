@@ -13,21 +13,21 @@ local PlayerName = UnitName("player");
 local eFaction, lFaction = UnitFactionGroup(PlayerName);
 local tFact = "";
 
-	if eFaction == "Hordies" then
-		tFact = "Alliance Cowards"
+	if eFaction == "Horde" then
+		tFact = "Alliance Scum"
 	else
 		tFact = "Hordies"
 	end
 
 	if Incoming_EnCount == "0" then
 		if Inc_MsgMode == 0 then
-			self.output:write( tFact .. " coming in fast at " .. current_location )
+			self.output:write( tFact .. " incoming at " .. current_location )
 		else
 			self.output:write( "INC " .. tFact .. " " .. current_location )
 		end
   else
 		if Inc_MsgMode == 0 then
-			self.output:write( Incoming_EnCount .. " " .. tFact .. " coming in fast at  " .. current_location )
+			self.output:write( Incoming_EnCount .. " " .. tFact .. " incoming at " .. current_location )
 		else
 			self.output:write( Incoming_EnCount .. " " .. tFact .. " INC " .. current_location )
 		end
