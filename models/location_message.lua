@@ -21,13 +21,13 @@ local tFact = "";
 
 	if Incoming_EnCount == "0" then
 		if Inc_MsgMode == 0 then
-			self.output:write( tFact .. " incoming at " .. current_location )
+			self.output:write( tFact .. " coming in fast at " .. current_location )
 		else
 			self.output:write( "INC " .. tFact .. " " .. current_location )
 		end
   else
 		if Inc_MsgMode == 0 then
-			self.output:write( Incoming_EnCount .. " " .. tFact .. " incoming at " .. current_location )
+			self.output:write( Incoming_EnCount .. " " .. tFact .. " coming in fast at " .. current_location )
 		else
 			self.output:write( Incoming_EnCount .. " " .. tFact .. " INC " .. current_location )
 		end
@@ -38,7 +38,7 @@ function LocationMessage:create_all_clear_message(current_location)
 	if Inc_MsgMode == 0 then
 		self.output:write( current_location .. " is all clear")
 	else
-		self.output:write( current_location .. " CLR")
+		self.output:write( current_location .. " clear")
 	end
 end
 
