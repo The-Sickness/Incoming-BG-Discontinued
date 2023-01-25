@@ -6,7 +6,7 @@
 ## eMail: avelliance@gmail.com, zarknoid@gmail.com
 ## author: Avelliance, Zarknoid, Sharpedge_Gaming
 ## URL: nil
-## LoadOnDemand: 0
+## LoadOnDemand: 1
 ## SavedVariables: Inc_ScaleText, Inc_MsgMode, Inc_LocPoint, Inc_LocRelTo, Inc_LocRelPoint, Inc_LocXOfs, Inc_LocYOfs
 
 
