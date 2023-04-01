@@ -1,6 +1,6 @@
 ## interface: 100007
 ## DefaultState: Enabled
-## Version: v10.0.2.0
+## Version: v10.0.7.0
 ## title: Incoming
 ## Notes: By clicking a button sends a message out in a battleground saying incoming at your location or all clear.
 ## eMail: avelliance@gmail.com, zarknoid@gmail.com

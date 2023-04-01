@@ -3,7 +3,7 @@
 ## Title: Incoming
 ## Author: Avelliance, Zarknoid
 ## Maintaner: Sharpedge_Gaming
-## Version: v10.0.2.0
+## Version: v10.0.7.0
 ## Dependencies: Incoming
 ## LoadOnDemand: 1
 ## SavedVariables: Inc_ScaleText, Inc_MsgMode, Inc_LocPoint, Inc_LocRelTo, Inc_LocRelPoint, Inc_LocXOfs, Inc_LocYOfs 
