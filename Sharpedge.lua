@@ -1,3 +1,10 @@
+-- Incoming
+-- Made by Sharpedge_Gaming
+-- v1.2	 - 10.0.2
+
+local myName, AddOn = ...
+local version = GetAddOnMetadata(myName, "Version")
+
 local Incoming = CreateFrame("Frame", "SharpedgeIncommingFrame", UIParent, BackdropTemplateMixin and "BackdropTemplate");
 Incoming:SetBackdrop({
       bgFile="Interface\\DialogFrame\\UI-DialogBox-Background", 
