@@ -1,4 +1,4 @@
-![Incoming][(https://user-images.githubusercontent.com/5657780/206879825-287ac157-f41a-4d14-8cb8-326e4f2b19cd.png)]
+![Incoming][[(https://user-images.githubusercontent.com/5657780/206879825-287ac157-f41a-4d14-8cb8-326e4f2b19cd.png)]
 
 
 * Have you even been in a situation in a BG or Epic BG to where you don't have time to type out that there is an INC at your location/flag? Stopping to type out your message for your group will take away from you defending the flag. 
