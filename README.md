@@ -1,5 +1,5 @@
 
-![Pic5](https://github.com/The-Sickness/Incoming-BG/assets/5657780/b37b3c2b-b3d1-4d6b-9472-1c837a66d629)
+
 
 
 * Have you even been in a situation in a BG or Epic BG to where you don't have time to type out that there is an INC at your location/flag? Stopping to type out your message for your group will take away from you defending the flag. 
